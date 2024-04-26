@@ -104,4 +104,26 @@ function Item2() {
         </>
     )
 }
+
+export function UseEx(){
+    return(
+        <>
+        
+        <div className='my-10 grid grid-cols-2 mx-5 gap-4 xl:grid-cols-5'>
+                    <Card img={Img1} alt='...' name='flower' title='custom floral designs' sub={127.00} add={86.00} />
+                    <Card img={Img2} alt='...' name='flower' title='custom floral designs' sub={127.00} add={86.00} />
+                    <Card img={Img3} alt='...' name='flower' title='custom floral designs' sub={127.00} add={86.00} />
+                    <Card img={Img1} alt='...' name='flower' title='custom floral designs' sub={127.00} add={86.00} />
+                    <Card img={Img4} alt='...' name='flower' title='custom floral designs' sub={127.00} add={86.00} />
+                    <Card img={Img1} alt='...' name='flower' title='custom floral designs' sub={127.00} add={86.00} />
+                    <Card img={Img5} alt='...' name='flower' title='custom floral designs' sub={127.00} add={86.00} />
+                    <Card img={Img1} alt='...' name='flower' title='custom floral designs' sub={127.00} add={86.00} />
+                    <Card img={Img6} alt='...' name='flower' title='custom floral designs' sub={127.00} add={86.00} />
+                    <Card img={Img1} alt='...' name='flower' title='custom floral designs' sub={127.00} add={86.00} />
+
+                </div>
+                </>
+    )
+}
+
 export default Price
